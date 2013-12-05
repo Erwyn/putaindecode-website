@@ -2,6 +2,7 @@ language: node_js
 before_install:
   - gem --version
   - gem update --system
+  - npm install -g bower
 # global requirements
   - make install
 # local requirements
