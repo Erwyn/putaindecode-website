@@ -3,7 +3,7 @@ init:
 
 install:
 	npm install
-	bower install
+	yes "yes" | bower install
 
 update:
 	npm install
