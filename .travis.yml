@@ -3,6 +3,7 @@ before_install:
   - gem --version
   - gem update --system
   - npm install -g bower
+  - yes "yes" | bower install
 # global requirements
   - make install
 # local requirements
